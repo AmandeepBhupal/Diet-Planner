@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearLayoutWater">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water Input"
+        android:textSize="25sp"
+        android:layout_marginTop="5dp"
+         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/dialogPlus"
+            android:background="@drawable/generalbuttonlayout"
+            android:shadowColor="#7057A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            />
+
+        <TextView
+            android:id="@+id/dialogCountHolder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:text="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/dialogMinus"
+            android:background="@drawable/generalbuttonlayout"
+            android:shadowColor="#7057A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitDialog"
+        android:text="Confirm"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/generalbuttonlayout"
+        android:shadowColor="#7057A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        />
+</LinearLayout>

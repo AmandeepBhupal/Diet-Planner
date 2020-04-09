@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7b1fa2">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:elevation="2dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/cardView4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView"
+
+            app:cardCornerRadius="2dp"
+            android:outlineSpotShadowColor="#ffffff">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ProgressBar
+                    android:id="@+id/progressBartrial"
+                    style="?android:progressBarStyleHorizontal"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:progressDrawable="@drawable/circle"
+                    android:background="#7b1fa2"/>
+
+                <TextView
+                    android:id="@+id/textprotein"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="Proteins"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"
+                    android:background="#7b1fa2"/>
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:elevation="2dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cardView4"
+            app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#7b1fa2">
+
+                <ProgressBar
+                    android:id="@+id/progressCarbo"
+                    style="?android:progressBarStyleHorizontal"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/circle" />
+
+                <TextView
+                    android:id="@+id/textcarbo"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="Carbohydrates"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:elevation="2dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#7b1fa2">
+
+                <ProgressBar
+                    android:id="@+id/progressFats"
+                    style="?android:progressBarStyleHorizontal"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/circle" />
+
+                <TextView
+                    android:id="@+id/textFats"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="Fats"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:elevation="2dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cardView4"
+            app:layout_constraintTop_toBottomOf="@+id/cardView4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#7b1fa2">
+
+                <ProgressBar
+                    android:id="@+id/progressCalorie"
+                    style="?android:progressBarStyleHorizontal"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/circle" />
+
+                <TextView
+                    android:id="@+id/textCalorie"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="Calorie"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:elevation="2dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/cardView4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutWater"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#7b1fa2"
+                android:clickable="true">
+
+                <me.itangqi.waveloadingview.WaveLoadingView
+                    android:id="@+id/waveLoadingView"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="2dp"
+
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginEnd="8dp"
+
+                    android:layout_marginRight="8dp"
+
+                    app:wlv_borderColor="@color/colorWater"
+                    app:wlv_borderWidth="3dp"
+                    app:wlv_round_rectangle="true"
+                    app:wlv_shapeType="circle"
+                    app:wlv_titleBottomColor="@android:color/white"
+                    app:wlv_titleBottomSize="24sp"
+                    app:wlv_titleBottomStrokeColor="@android:color/holo_blue_dark"
+                    app:wlv_titleBottomStrokeWidth="3dp"
+                    app:wlv_titleCenterColor="@android:color/white"
+                    app:wlv_titleCenterSize="24sp"
+                    app:wlv_titleCenterStrokeColor="@android:color/holo_blue_dark"
+                    app:wlv_titleCenterStrokeWidth="3dp"
+                    app:wlv_titleTopColor="@android:color/white"
+                    app:wlv_titleTopSize="24sp"
+                    app:wlv_titleTopStrokeColor="@android:color/holo_blue_dark"
+                    app:wlv_titleTopStrokeWidth="3dp"
+                    app:wlv_waveAmplitude="70"
+                    app:wlv_waveColor="@color/colorWater"
+                    tools:layout_editor_absoluteY="507dp" />
+
+                <TextView
+                    android:id="@+id/textWater"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="Water"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            app:cardUseCompatPadding="true"
+            app:elevation="2dp"
+            app:layout_constraintBottom_toTopOf="@+id/zigzagView"
+            app:layout_constraintEnd_toStartOf="@+id/cardView5"
+            app:layout_constraintStart_toEndOf="@+id/cardView6"
+            app:layout_constraintTop_toBottomOf="@+id/cardView4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#7b1fa2"
+                android:orientation="vertical">
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/runningman"
+                    android:backgroundTint="@color/colorWater"
+                    />
+                <TextView
+                    android:id="@+id/textRunning"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="Running"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <ir.beigirad.zigzagview.ZigzagView
+            android:id="@+id/zigzagView"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView6"
+            app:zigzagBackgroundColor="#ae52d4"
+            app:zigzagElevation="2dp"
+            app:zigzagHeight="5dp"
+            app:zigzagPaddingContent="16dp"
+            app:zigzagShadowAlpha="0.9"
+            app:zigzagSides="top|bottom">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fun Facts"
+                android:textSize="20sp"
+                android:textColor="#ffffff"/>
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_view_funcfacts1"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp">
+
+                    <LinearLayout
+                        android:layout_width="350dp"
+                        android:layout_height="83dp"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/image_brocolli"
+                            android:layout_width="wrap_content"
+                            android:layout_weight="4"
+                            android:layout_height="83dp"
+                            android:src="@drawable/brocolliimg"
+                            />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_weight="1">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="HEALTH FACTS OF THE DAY:"
+                                android:textStyle="bold|italic"
+                                android:textSize="20sp"
+                                />
+                            <TextView
+                                android:id="@+id/item_brocolli"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="71dp"
+                                android:layout_alignStart="@+id/card_view_funcfacts1"
+                                android:layout_alignLeft="@+id/image_brocolli"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="0dp"
+                                android:text="Broccoli is a good source of very potent antioxidant"
+                                android:autoLink="web"
+                                android:textSize="18sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+            </HorizontalScrollView>
+        </ir.beigirad.zigzagview.ZigzagView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:cardUseCompatPadding="true"
+            app:elevation="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="#4a0072">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/profile"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:id="@+id/welcome_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Hello, User"
+                    android:textSize="20sp"
+                    android:textStyle="italic|bold"
+                    android:textColor="#ffffff"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <ir.beigirad.zigzagview.ZigzagView
+            android:id="@+id/zigzagView2"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/zigzagView"
+            app:zigzagBackgroundColor="#7b1fa2"
+            app:zigzagElevation="2dp"
+            app:zigzagHeight="5dp"
+            app:zigzagPaddingContent="16dp"
+            app:zigzagShadowAlpha="0.9"
+            app:zigzagSides="top|bottom"
+            android:clickable="true"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marathons near me"
+                android:textSize="20sp"
+                android:textColor="#ffffff"/>
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_view_marathon"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp">
+
+                    <LinearLayout
+                        android:layout_width="350dp"
+                        android:layout_height="83dp"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <ImageView
+                            android:id="@+id/marathon_near_me"
+                            android:layout_width="wrap_content"
+                            android:layout_weight="4"
+                            android:layout_height="83dp"
+                            android:src="@drawable/marathonnearme"
+                            />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_weight="1">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="MARATHONS COMING UPP >>>:"
+                                android:textStyle="bold|italic"
+                                android:textSize="20sp"
+                                />
+                            <TextView
+                                android:id="@+id/item_marathon_details"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="71dp"
+                                android:layout_alignStart="@+id/card_view_marathon"
+                                android:layout_alignLeft="@+id/marathon_near_me"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="0dp"
+                                android:text="Santa Clara, CA"
+                                android:autoLink="web"
+                                android:textSize="18sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+            </HorizontalScrollView>
+
+        </ir.beigirad.zigzagview.ZigzagView>
+
+        <Button
+            android:id="@+id/logOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="LOGOUT"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/zigzagView2"
+            android:background="@drawable/generalbuttonlayout"
+            android:shadowColor="#7057A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:shadowRadius="5"
+            />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

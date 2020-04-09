@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">MobApplicationDev</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="google_maps_API_key">AIzaSyAakfTwF1ulbZOW5E1K2nFfw--SIEmoglk</string>
+
+    <string name="list1">
+        <a href="https://naturopathicfamilyhealth.com"> Naturopathic Family Health \n</a>
+        <i><font size= "-1">Address: 1688 Willow St Building C, Suite C, San Jose, CA 95125 \n Phone: (408) 356-1364 \n</font></i>
+    </string>
+    <string name="list2">
+        <a href="https://www.saraleungrd.com">Sara Leung, RD \n</a>
+        <i>Address: 1361 S Winchester Blvd #101, San Jose, CA 95128 \n Phone: (650) 380-0366 \n</i></string>
+    <string name="list3">
+        <a href="http://resultsfoodcoaching.com">RESULTS. Professional Food Coaching, LLC \n </a>
+        <i>Phone:(925) 785-9701 \n</i>
+    </string>
+    <string name="list4">
+        <a href="http://www.bayareanutrition.com">Bay Area Nutrition LLC \n</a>
+        <i>Address: 621 E Campbell Ave # 6B, Campbell, CA 95008  \n Phone:(408) 370-7731 \n</i>
+    </string>
+    <string name="list5">
+        <a href="http://www.naturopathicfamilyhealth.com">Jill Borba Nutrition \n</a>
+        <i>Address: 1688 Willow St Suite C, San Jose, CA 95125  \n Phone: (408) 356-1364 \n</i></string>
+    <string name="list6">
+        <a href="https://www.naniglass.com">Nutrition by Nani \n</a>
+        <i>Address: 125 E Sunnyoaks Ave #206, Campbell, CA 95008  \n Phone: (510) 320-3438 \n</i></string>
+    <string name="list7">
+        <a href="http://www.greenlitemedicine.com">GreenLite Medicine - San Jose \n</a>
+        <i>Address: 4030 Moorpark Ave #119, San Jose, CA 95117 \n Phone:  (866) 661-5673 \n</i></string>
+    <string name="list8">
+        <a href="https://mor-nutrition4life.com">Mor Nutrition and More Chen Ben Asher</a>
+        <i>Address: 22311 Stevens Creek Blvd, Cupertino, CA 95014 \n Phone: (408) 966-4972 \n</i></string>
+    <string name="list9">
+        <a href="">Alice D. Fagundes, MS</a>
+        <i>Address: 175 N Jackson Ave #209, San Jose, CA 95116 \n Phone: (408) 504-3217 \n</i></string>
+    <string name="list10">
+        <a href="http://www.naturopathicfamilyhealth.com">Eat 2 Perform Inc. \n</a>
+        <i>Address: 885 N San Antonio Rd Ste. E2, Los Altos, CA 94022 \n Phone:  (650) 941-2100 \n</i></string>
+
+
+
+
+    <string name="mad1">
+        <a href=""> \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t Ajinkya Pathak \n</a>
+        <i> \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t Profile: \n \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t Phone: (669) 272-9373 \n</i></string>
+    <string name="mad2">
+        <a href=""> \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t Laxmi Samala \n </a>
+        <i> \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t Profile:  \n \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t Phone:(669) 249-9521 \n</i>
+    </string>
+    <string name="mad3">
+        <a href=""> \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t Yash Karkhanis \n</a>
+        <i>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t Profile: \n \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t Phone:(669) 272-9313 \n</i>
+    </string>
+    <string name="mad4">
+        <a href=""> \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t Karan Madhwani \n</a>
+        <i>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t Profile:  \n \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t Phone: (925) 967-7045 \n</i></string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
